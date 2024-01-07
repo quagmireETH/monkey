@@ -19,7 +19,7 @@ export default function Home() {
             <div>
               <p className="shadow-[0_0_30px_10px] shadow-white border-4 border-white bg-[#DB5E1E] bg-opacity-50 rounded-md text-3xl px-3 py-1.5 text-center max-[585px]:text-4xl max-[465px]:text-3xl max-[400px]:px-1">
                 Hang on to your bananas, because $MONKE is here to bring the
-                laughter! We're the mischievous bunch that turns everyday
+                laughter! We&apos;re the mischievous bunch that turns everyday
                 moments into uproarious adventures. Chief banana-peeler and
                 mastermind behind the madness, ready to tickle your funny bone!
               </p>

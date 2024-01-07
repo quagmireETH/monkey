@@ -9,7 +9,11 @@ function Header() {
       <div className="flex justify-center items-center max-[900px]:hidden">
         <img className="w-8 cursor-pointer mr-4" src="/twAsset_21.svg" alt="" />
         <img className="w-8 cursor-pointer mr-4" src="/tgAsset_22.svg" alt="" />
-        <img className="w-8 cursor-pointer" src="/etherscan-logo-light-circle.svg" alt="" />
+        <img
+          className="w-8 cursor-pointer"
+          src="/etherscan-logo-light-circle.svg"
+          alt=""
+        />
       </div>
 
       <div className="flex justify-between items-center max-[900px]:hidden">
@@ -26,7 +30,7 @@ function Header() {
       </div>
 
       <div className="flex justify-end items-center mr-10">
-        <Link href="https://raydium.io/swap/">
+        <Link href="">
           <button className="cursor-pointer text-lg border-4 rounded-2xl px-6 pt-1 border-[#ffffff] hover:bg-[#DB5E1E] active:bg-[#ffffff]">
             <p>Buy Now</p>
           </button>
