@@ -33,21 +33,17 @@ export default function Home() {
               </p>
             </div>
             <div className="flex justify-center items-center mt-24 max-[550px]:flex-col max-[550px]:mt-6">
-              <Link>
-                <button className="cursor-pointer border-4 rounded-2xl px-16 py-1.5 mr-10 border-[#ffffff] bg-[#DB5E1E] hover:bg-[rgba(24,163,75,0.7)] active:bg-[#ffffff] max-[710px]:px-10 max-[550px]:mr-0 max-[550px]:mb-10 max-[550px]:px-28">
-                  <p className="text-xl">Dextools</p>
-                </button>
-              </Link>
-              <Link>
-                <button className="cursor-pointer border-4 rounded-2xl px-16 py-1.5 mr-10 border-[#ffffff] bg-[#DB5E1E] hover:bg-[rgba(24,163,75,0.7)] active:bg-[#ffffff] max-[710px]:px-10 max-[550px]:mr-0 max-[550px]:mb-10 max-[550px]:px-28">
-                  <p className="text-xl">Uniswap</p>
-                </button>
-              </Link>
-              <Link>
-                <button className="cursor-pointer border-4 rounded-2xl px-12 py-1.5 border-[#ffffff] bg-[#DB5E1E] hover:bg-[rgba(24,163,75,0.7)] active:bg-[#ffffff] max-[710px]:px-6 max-[550px]:px-24">
-                  <p className="text-xl">Dexscreener</p>
-                </button>
-              </Link>
+              <button className="cursor-pointer border-4 rounded-2xl px-16 py-1.5 mr-10 border-[#ffffff] bg-[#DB5E1E] hover:bg-[rgba(24,163,75,0.7)] active:bg-[#ffffff] max-[710px]:px-10 max-[550px]:mr-0 max-[550px]:mb-10 max-[550px]:px-28">
+                <p className="text-xl">Dextools</p>
+              </button>
+
+              <button className="cursor-pointer border-4 rounded-2xl px-16 py-1.5 mr-10 border-[#ffffff] bg-[#DB5E1E] hover:bg-[rgba(24,163,75,0.7)] active:bg-[#ffffff] max-[710px]:px-10 max-[550px]:mr-0 max-[550px]:mb-10 max-[550px]:px-28">
+                <p className="text-xl">Uniswap</p>
+              </button>
+
+              <button className="cursor-pointer border-4 rounded-2xl px-12 py-1.5 border-[#ffffff] bg-[#DB5E1E] hover:bg-[rgba(24,163,75,0.7)] active:bg-[#ffffff] max-[710px]:px-6 max-[550px]:px-24">
+                <p className="text-xl">Dexscreener</p>
+              </button>
             </div>
           </div>
         </div>
