@@ -7,7 +7,9 @@ function Header() {
   return (
     <div className="bg-black bg-opacity-60 flex justify-between items-center py-6 border-b-2 border-white px-6">
       <div className="flex justify-center items-center max-[900px]:hidden">
+        <Link href="https://x.com/monkecoin_eth">
         <img className="w-8 cursor-pointer mr-4" src="/twAsset_21.svg" alt="" />
+        </Link>
         <img className="w-8 cursor-pointer mr-4" src="/tgAsset_22.svg" alt="" />
         <img
           className="w-8 cursor-pointer"

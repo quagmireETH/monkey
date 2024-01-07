@@ -32,16 +32,14 @@ function MobileNav({ open, setOpen }) {
           className="w-8 my-2 mb-4 cursor-pointer"
           alt=""
         />
-          <img
-            src="/tgAsset_22.svg"
-            className="w-8 mb-4 cursor-pointer"
-            alt=""
-          />
+        <img src="/tgAsset_22.svg" className="w-8 mb-4 cursor-pointer" alt="" />
+        <Link href="https://x.com/monkecoin_eth">
           <img
             src="/twAsset_21.svg"
             className="w-8 my-2 cursor-pointer"
             alt=""
           />
+        </Link>
       </div>
     </div>
   ) : null;
