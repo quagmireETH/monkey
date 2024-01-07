@@ -32,11 +32,9 @@ function Header() {
       </div>
 
       <div className="flex justify-end items-center mr-10">
-        <Link href="">
           <button className="cursor-pointer text-lg border-4 rounded-2xl px-6 pt-1 border-[#ffffff] hover:bg-[#DB5E1E] active:bg-[#ffffff]">
             <p>Buy Now</p>
           </button>
-        </Link>
       </div>
 
       <Navbar />
