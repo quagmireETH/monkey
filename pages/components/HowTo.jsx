@@ -21,6 +21,12 @@ function HowTo() {
         <p className="text-5xl">How To Get $MONKE</p>
       </div>
 
+      <img
+          className="absolute opacity-50 right-64 rotate-12 w-96 top-44 -z-50 max-[500px]:w-52 max-[500px]:right-24"
+          src="/banana2.png"
+          alt=""
+        />
+
       <Carousel
         additionalTransfrom={0}
         arrows
