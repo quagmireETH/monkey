@@ -33,17 +33,23 @@ export default function Home() {
               </p>
             </div>
             <div className="flex justify-center items-center mt-24 max-[550px]:flex-col max-[550px]:mt-6">
-              <button className="cursor-pointer border-4 rounded-2xl px-16 py-1.5 mr-10 border-[#ffffff] bg-[#DB5E1E] active:bg-[#ffffff] max-[710px]:px-10 max-[550px]:mr-0 max-[550px]:mb-10 max-[550px]:px-28">
-                <p className="text-xl">Dextools</p>
-              </button>
+              <Link href="https://www.dextools.io/app/en/ether/pairs">
+                <button className="cursor-pointer border-4 rounded-2xl px-16 py-1.5 mr-10 border-[#ffffff] bg-[#DB5E1E] active:bg-[#ffffff] max-[710px]:px-10 max-[550px]:mr-0 max-[550px]:mb-10 max-[550px]:px-28">
+                  <p className="text-xl">Dextools</p>
+                </button>
+              </Link>
 
-              <button className="cursor-pointer border-4 rounded-2xl px-16 py-1.5 mr-10 border-[#ffffff] bg-[#DB5E1E] active:bg-[#ffffff] max-[710px]:px-10 max-[550px]:mr-0 max-[550px]:mb-10 max-[550px]:px-28">
-                <p className="text-xl">Uniswap</p>
-              </button>
+              <Link href="https://uniswap.org/">
+                <button className="cursor-pointer border-4 rounded-2xl px-16 py-1.5 mr-10 border-[#ffffff] bg-[#DB5E1E] active:bg-[#ffffff] max-[710px]:px-10 max-[550px]:mr-0 max-[550px]:mb-10 max-[550px]:px-28">
+                  <p className="text-xl">Uniswap</p>
+                </button>
+              </Link>
 
-              <button className="cursor-pointer border-4 rounded-2xl px-12 py-1.5 border-[#ffffff] bg-[#DB5E1E] active:bg-[#ffffff] max-[710px]:px-6 max-[550px]:px-24">
-                <p className="text-xl">Dexscreener</p>
-              </button>
+              <Link href="https://dexscreener.com/">
+                <button className="cursor-pointer border-4 rounded-2xl px-12 py-1.5 border-[#ffffff] bg-[#DB5E1E] active:bg-[#ffffff] max-[710px]:px-6 max-[550px]:px-24">
+                  <p className="text-xl">Dexscreener</p>
+                </button>
+              </Link>
             </div>
           </div>
         </div>

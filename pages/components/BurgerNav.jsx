@@ -27,12 +27,20 @@ function MobileNav({ open, setOpen }) {
             <p className="text-2xl mb-4">Tokenomics</p>
           </ScrollButton>
         </a>
-        <img
-          src="/etherscan-logo-light-circle.svg"
-          className="w-8 my-2 mb-4 cursor-pointer"
-          alt=""
-        />
-        <img src="/tgAsset_22.svg" className="w-8 mb-4 cursor-pointer" alt="" />
+        <Link href="https://etherscan.io/">
+          <img
+            src="/etherscan-logo-light-circle.svg"
+            className="w-8 my-2 mb-4 cursor-pointer"
+            alt=""
+          />
+        </Link>
+        <Link href="t.me/monkecoinportal">
+          <img
+            src="/tgAsset_22.svg"
+            className="w-8 mb-4 cursor-pointer"
+            alt=""
+          />
+        </Link>
         <Link href="https://x.com/monkecoin_eth">
           <img
             src="/twAsset_21.svg"
