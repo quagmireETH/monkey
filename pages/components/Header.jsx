@@ -14,7 +14,7 @@ function Header() {
             alt=""
           />
         </Link>
-        <Link href="t.me/monkecoinportal">
+        <Link href="https://t.me/monkecoinportal">
           <img
             className="w-8 cursor-pointer mr-4"
             src="/tgAsset_22.svg"
