@@ -34,7 +34,7 @@ function MobileNav({ open, setOpen }) {
             alt=""
           />
         </Link>
-        <Link href="t.me/monkecoinportal">
+        <Link href="https://t.me/monkecoinportal">
           <img
             src="/tgAsset_22.svg"
             className="w-8 mb-4 cursor-pointer"
