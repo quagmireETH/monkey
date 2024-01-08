@@ -16,7 +16,7 @@ function Tokenomics() {
       <div className="flex flex-col mt-10">
         <div className="flex justify-center items-center">
         <div className="shadow-[0_0_30px_10px] shadow-white border-2 border-white rounded-lg mb-4 py-3 px-10">
-          <p className="text-3xl">Total Supply : 1B </p>
+          <p className="text-3xl">Total Supply : 1,000,000,000 </p>
         </div>
         </div>
         <div className="flex justify-evenly items-center mt-10 max-[675px]:flex-col">
